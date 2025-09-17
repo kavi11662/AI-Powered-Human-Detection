@@ -17,4 +17,4 @@
 
     Step 6: Insert that api key in your code
 
-    Step 7: Run the code(streamlit run human.py)
+    Step 7: Run the code(streamlit run human.py) 
