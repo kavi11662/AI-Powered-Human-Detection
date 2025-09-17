@@ -1,2 +1,20 @@
-# AI-Powered-Human-Detection
-Developed a smart surveillance system capable of detecting human presence in real time. Integrated IoT for remote monitoring and used Streamlit to build an interactive web interface for live video streaming and alerts. The system supports human identification, and automated notifications, enhancing home security and user accessibility.
+     Python Environment: Make sure you have Python installed, preferably version 3.7 or later.
+     Install Required Libraries:
+     ultralytics for YOLOv8.
+     opencv-python for accessing the live camera.
+     torch for PyTorch (YOLOv8 uses PyTorch as a backend).
+     Use Pushbullet for mobile notification
+
+     Step 1: Install YOLOv8 and Other Dependencies(Streamlit)
+
+    Step 2: Load Pre-Trained YOLOv8 Model
+
+    Step 3: Customize the Model for Human Detection
+
+    Step 4: Fine-tune the Model
+
+    Step 5: Create a api key in pushbullet app
+
+    Step 6: Insert that api key in your code
+
+    Step 7: Run the code(streamlit run human.py)
