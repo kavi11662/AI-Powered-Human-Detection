@@ -6,7 +6,7 @@ import time
 from ultralytics import YOLO
 from pushbullet import Pushbullet
 
-
+#Api key
 API_KEY = "o.2LDpOlCHQhc3Pe7e4v5zJ9BdiImKvJjj"  
 pb = Pushbullet(API_KEY)
 
@@ -88,3 +88,7 @@ if run_detection:
 
 else:
     st.info("Check the box to start real-time detection.")
+# End of Human.py
+# To run this app, use the command: streamlit run Human.py
+# Make sure you have the required libraries installed:
+# pip install ultralytics opencv-python streamlit pushbullet.py 
